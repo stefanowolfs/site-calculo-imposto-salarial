@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+html{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../../public/images/faixa-vermelho.png");
+}
+
+div#conteudo-geral{
+    /*background-color: #cfd0d3;*/
+    min-height: 100%;
+    flex-grow: 1;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+a#nav-logo{
+    color: #ea2b30;
+    font-weight: 900;
+}
+
+p, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p#subtitulo-header {
+    margin-top: 12px;
+    margin-right:8px;
+}
+
+div#conteudo-home {
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+
+.card-group{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.sombra-externa {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CAROUSEL */
+div.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+}
+
+div.carousel-caption {
+    background-color:  #212020e6;
+}
+
+div#demo{
+    max-height: 400px;
+    width: 100%;
+}
+
+/*TELA GRANDE*/
+@media only screen and (min-width: 1300px){
+    div#conteudo-geral{
+        min-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p#subtitulo-header {
+        margin-right: 60px;
+    }
+}
+
+/*TELA MEDIA*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+    p#subtitulo-header {
+        margin-right: 60px;
+    }
+
+    div#conteudo-geral{
+        min-width: 100%;
+    }
+}
+
+/*TELA PEQUENA*/
+@media only screen and (max-width: 480px) {
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    div#conteudo-geral{
+        min-width: 100%;
+    }
+
+    img#img-logo{
+        width: 50px;
+        height: 20px;
+        margin-right: 0px;
+    }
+
+    p#subtitulo-header{
+        font-size: 12pt;
+        margin: auto;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    div.carousel-caption {
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    div.carousel-item img{
+        height: 200px;
+    }
+
+    div.carousel-item{
+        height: 250px;
+    }
+
+    div.carousel-item h3{
+        font-size: 12pt;
+        font-weight: 600;
+    }
+    
+    div.carousel-item p{
+        font-size: 10pt;
+    }
+}
