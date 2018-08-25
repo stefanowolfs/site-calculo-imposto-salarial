@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo URL ?>node_modules/bootstrap/compiler/bootstrap.css">
 
-    <link rel="stylesheet" href="<?php echo URL ?>view/css/meuStyle.css">
+    <link rel="stylesheet" href="<?php echo URL ?>view/css/style.css">
 
       <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php echo URL ?>node_modules/font-awesome/css/font-awesome.css">

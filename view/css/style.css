@@ -1,151 +1,71 @@
-@charset "UTF-8";
+@font-face {
+  font-family: "Baloo";
+  src: url("../font/Baloo/Baloo-Regular.ttf") format("truetype"); }
+body {
+  background-color: #80bdff; }
 
-html{
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
+nav {
+  max-width: 1300px !important; }
+  nav span {
+    font-family: "Baloo", sans-serif; }
 
-body{
-    width: 100%;
-    height: 100%;
+.titulo {
+  color: #3dc87a !important; }
+
+.cor-enfase {
+  color: #34b86e !important; }
+
+.conteudo-container {
+  max-width: 1300px !important; }
+
+#linha-1 {
+  min-height: 400px;
+  background-color: #eeeeee; }
+  #linha-1 .col-container {
     display: flex;
-    flex-flow: column;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: url("../../public/images/faixa-vermelho.png");
-}
+    width: 100%; }
+  #linha-1 .col {
+    flex: 1;
+    padding: 16px; }
+  #linha-1 #form-container {
+    background-color: #e1e1e1; }
+    #linha-1 #form-container small {
+      color: #ea6f6f !important; }
+  #linha-1 #resposta-container #tutorial {
+    background-color: #f6f6f6;
+    border-radius: 10px; }
+    #linha-1 #resposta-container #tutorial h4 {
+      font-family: "Baloo", sans-serif; }
+  #linha-1 #resposta-container .sal-liquido {
+    background-color: #b5eacc;
+    border: solid #79d9a3 2px;
+    border-radius: 15px; }
+  #linha-1 #resposta-container .sal-descontos {
+    background-color: #f6bfbf;
+    border: solid #f09c9c 2px;
+    border-radius: 15px; }
 
-div#conteudo-geral{
-    /*background-color: #cfd0d3;*/
-    min-height: 100%;
-    flex-grow: 1;
-}
+#linha-2 {
+  color: #eaeaea; }
+  #linha-2 h3 {
+    margin-bottom: 2px !important;
+    padding-bottom: 2px !important; }
+  #linha-2 hr {
+    background-color: #495159;
+    margin-top: 0px;
+    margin-bottom: 2em; }
+  #linha-2 .table-container {
+    max-width: 1300px !important;
+    background-color: #1d2124; }
 
-footer {
-    margin-bottom: 0px;
-    margin-top: 100px;
-}
+h2 {
+  font-family: "Baloo", sans-serif; }
 
-a#nav-logo{
-    color: #ea2b30;
-    font-weight: 900;
-}
+#footer {
+  color: #eaeaea;
+  font-size: 12pt; }
+  #footer i {
+    font-size: 15pt;
+    margin-right: 6px; }
 
-p, h3 {
-    margin: 0px;
-    padding: 0px;
-}
-
-p#subtitulo-header {
-    margin-top: 12px;
-    margin-right:8px;
-}
-
-div#conteudo-home {
-    min-width: 100%;
-    margin: 0px;
-    padding: 0px;
-    flex-direction: column;
-}
-
-
-.card-group{
-    margin-top: 100px;
-    margin-bottom: 0px;
-}
-
-.sombra-externa {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* CAROUSEL */
-div.carousel-inner img {
-    width: 100%;
-    height: 100%;
-    max-height: 400px;
-}
-
-div.carousel-caption {
-    background-color:  #212020e6;
-}
-
-div#demo{
-    max-height: 400px;
-    width: 100%;
-}
-
-/*TELA GRANDE*/
-@media only screen and (min-width: 1300px){
-    div#conteudo-geral{
-        min-width: 1300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    p#subtitulo-header {
-        margin-right: 60px;
-    }
-}
-
-/*TELA MEDIA*/
-@media only screen and (min-width: 481px) and (max-width: 800px) {
-    p#subtitulo-header {
-        margin-right: 60px;
-    }
-
-    div#conteudo-geral{
-        min-width: 100%;
-    }
-}
-
-/*TELA PEQUENA*/
-@media only screen and (max-width: 480px) {
-    .navbar-toggler-icon{
-        width: 20px;
-    }
-
-    .card{
-        margin-bottom: 20px;
-    }
-
-    div#conteudo-geral{
-        min-width: 100%;
-    }
-
-    img#img-logo{
-        width: 50px;
-        height: 20px;
-        margin-right: 0px;
-    }
-
-    p#subtitulo-header{
-        font-size: 12pt;
-        margin: auto;
-        padding: 0px;
-        margin-left: 10px;
-    }
-
-    div.carousel-caption {
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-    }
-
-    div.carousel-item img{
-        height: 200px;
-    }
-
-    div.carousel-item{
-        height: 250px;
-    }
-
-    div.carousel-item h3{
-        font-size: 12pt;
-        font-weight: 600;
-    }
-    
-    div.carousel-item p{
-        font-size: 10pt;
-    }
-}
+/*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@
 
 //LOCALHOST
     //Definindo caminho URL
-    define('URL', 'http://localhost/calculo-salarial/');
+    define('URL', 'http://localhost/site-calculo-imposto-salarial/');
 
     //Definindo caminho DIRETÓRIO
-    define("DIR","/srv/www/http/calculo-salarial/");
+    define("DIR","site-calculo-imposto-salarial");
