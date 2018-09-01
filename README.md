@@ -1,9 +1,8 @@
-## Site que calcula imposto sobre salário
+# Site que calcula imposto sobre salário
 
-Utilizando:
+Ferramentas utilizadas:
+#### jQuery
+#### Bootstrap
+#### Sass
 
-# jQuery
-# Bootstrap
-# Sass
-
-site: http://codandocafe.esy.es/sites/calculo-salarial/
+## site: http://codandocafe.esy.es/sites/calculo-salarial/
